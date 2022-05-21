@@ -2,6 +2,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: white;
+  transition: 0.4s;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -19,6 +20,8 @@
 
 :root {
   color-scheme: dark;
+  --accent: #3F3E3E;
+  --main: gainsboro;
 }
 
 body {
@@ -153,4 +156,28 @@ p {
   button span {
     font-size: 3vw;
   }
+}
+
+footer {
+  padding-bottom: 5pt;
+  text-align: center;
+  cursor: context-menu;
+}
+
+footer p {
+  color: var(--accent);
+}
+
+footer a {
+  color: var(--main);
+  text-decoration: none;
+  transition: 0.4s;
+  font-size: 15pt;
+}
+
+footer a:hover {
+  color: var(--accent);
+  text-decoration: none;
+  transition: 0.4s;
+  font-size: 15pt;
 }
