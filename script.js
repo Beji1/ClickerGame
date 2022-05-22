@@ -44,22 +44,22 @@ let option7 = {
 let option8 = {
   cost: 100000000,
   bonus: 1000000000,
-  element: document.getElementById("option-7"),
+  element: document.getElementById("option-8"),
 };
 let option9 = {
   cost: 1000000000,
   bonus: 10000000000,
-  element: document.getElementById("option-7"),
+  element: document.getElementById("option-9"),
 };
 let option10 = {
   cost: 10000000000,
   bonus: 100000000000,
-  element: document.getElementById("option-7"),
+  element: document.getElementById("option-10"),
 };
 let option11 = {
   cost: 1000000000000,
   bonus: 1000000000000,
-  element: document.getElementById("option-7"),
+  element: document.getElementById("option-11"),
 };
 
 let options = [option1, option2, option3, option4, option5, option6, option7];
