@@ -178,3 +178,7 @@ return true;
 }
 });
 
+function clear() {
+  localStorage.clear();
+  console.log('cleared .')
+}
