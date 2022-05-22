@@ -41,6 +41,26 @@ let option7 = {
   bonus: 10000000,
   element: document.getElementById("option-7"),
 };
+let option8 = {
+  cost: 100000000,
+  bonus: 1000000000,
+  element: document.getElementById("option-7"),
+};
+let option9 = {
+  cost: 1000000000,
+  bonus: 10000000000,
+  element: document.getElementById("option-7"),
+};
+let option10 = {
+  cost: 10000000000,
+  bonus: 100000000000,
+  element: document.getElementById("option-7"),
+};
+let option11 = {
+  cost: 1000000000000,
+  bonus: 1000000000000,
+  element: document.getElementById("option-7"),
+};
 
 let options = [option1, option2, option3, option4, option5, option6, option7];
 
@@ -118,8 +138,14 @@ function updateSite() {
     <p>Cost: ${option6.cost}</p>`;
   option7.element.innerHTML = `Graduation <span>+${option7.bonus} points/sec</span>
     <p>Cost: ${option7.cost}</p>`;
-
-
+    option8.element.innerHTML = `Looking for a job <span>+${option8.bonus} points/sec</span>
+    <p>Cost: ${option8.cost}</p>`;
+    option9.element.innerHTML = `Intreview <span>+${option9.bonus} points/sec</span>
+    <p>Cost: ${option9.cost}</p>`;
+    option10.element.innerHTML = `Working <span>+${option10.bonus} points/sec</span>
+    <p>Cost: ${option10.cost}</p>`;
+    option11.element.innerHTML = `Getting old <span>+${option11.bonus} points/sec</span>
+    <p>Cost: ${option11.cost}</p>`;
   options.forEach((option) => {
     if (score >= option.cost) option.element.classList.add("available");
     else option.element.classList.remove("available");
@@ -151,3 +177,4 @@ else
 return true;
 }
 });
+
